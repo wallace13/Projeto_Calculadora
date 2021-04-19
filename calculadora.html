@@ -1,0 +1,55 @@
+<! DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+	<meta charset="utf-8" />
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="css/styles.css" />
+	<script src="js/scripts.js"></script>	
+</head>
+<header>
+	<body>
+		<div class="main">
+			<table class="table">
+				<tr>
+					<td colspan="4">
+						<form name="form">
+						<input id="display" class="result" name="result" placeholder="0">
+						</form>
+					</td>
+				</tr>
+				<tr>
+					<td><button onclick="clearAll()">C</button></td>	
+					<td><button onclick="pressAlter(this)">+/-</button></td>	
+					<td><button onclick="pressOperator(this)">%</button></td>	
+					<td><button class="op" onclick="pressOperator(this)">/</button></td>	
+				</tr>
+				<tr>
+					<td><button onclick="pressNum(this)">7</button></td>	
+					<td><button onclick="pressNum(this)">8</button></td>	
+					<td><button onclick="pressNum(this)">9</button></td>	
+					<td><button class="op" onclick="pressOperator(this)">*</button></td>	
+				</tr>
+				<tr>
+					<td><button onclick="pressNum(this)">4</button></td>	
+					<td><button onclick="pressNum(this)">5</button></td>	
+					<td><button onclick="pressNum(this)">6</button></td>	
+					<td><button class="op" onclick="pressOperator(this)">+</button></td>	
+				</tr>
+				<tr>
+					<td><button onclick="pressNum(this)">1</button></td>	
+					<td><button onclick="pressNum(this)">2</button></td>	
+					<td><button onclick="pressNum(this)">3</button></td>	
+					<td><button class="op" onclick="pressOperator(this)">-</button></td>	
+				</tr>
+				<tr>
+					<td><button onclick="pressNum(this)">0</button></td>	
+					<td><button onclick="pressNum(this)">.</button></td>	
+					<td><button onclick="pressPI(this)">pi</button></td>	
+					<td><button class="op" onClick="pressEqual()">=</button></td>		
+				</tr>
+			</table>				
+		</div>
+		<script src="js/scripts.js"></script>	
+	</body>
+</header>
+</html>
